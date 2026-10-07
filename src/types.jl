@@ -22,6 +22,6 @@ end
 
 mutable struct Node_PDG
     A::ComplexF64 # Amplitud compeleja
-    ê::Symbol # Tipo, entre {+, -, Z}
+    ê::Symbol # Tipo, entre {:F+, :F-, :Z}
     τ::Float64 # Reloj interno
 end

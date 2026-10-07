@@ -1,25 +1,26 @@
-# Dynamic Off Resonance Monte Carlo simulations
-function simular_dor(
+using QuasiMonteCarlo
+
+function simular_convencional_halton(
         T₂′::Float64, 
         secuencia::Vector, 
         M₀::Vector,
-        N_iso::Integer = 100,
-        reshufle = 0.1
+        N_iso::Integer = 100
     )
 
     Mxy = M₀[1] + im * M₀[2]
 
     spins = Isochromat[]
 
-    distribucion = Cauchy(0, 1 / T₂′)
-    Δω = rand(distribucion, N_iso)
+    samples = QuasiMonteCarlo.sample(N_iso, [0.0], [1.0], HaltonSample())
+
+    inverse_cauchy_cdf(p) = 1/T₂′ * tan(π * (p - 0.5))
+
+    Δω = inverse_cauchy_cdf.(samples)
 
     for k in Δω
         spin = Isochromat(Mxy, M₀[3], k)
         push!(spins, spin)
     end
-
-    T_reshufle = T₂′*reshufle
 
     function signal(spins)
         return sum(spin.Mxy for spin in spins) / length(spins)
@@ -45,15 +46,7 @@ function simular_dor(
 
             if event isa Delay
                 Δt = event.duration / event.samples
-                k_reshufle = T_reshufle ÷ Δt
-                for k in 1:event.samples
-                    # Recalcular los ω al hacer reshufle
-                    Δω = rand(distribucion, N_iso)
-                    if k%k_reshufle === 0.0
-                        for (spin, ω) in zip(spins, Δω)
-                            spin.Δω = ω
-                        end
-                    end
+                for _ in 1:event.samples
                     for spin in spins
                         free_precess!(spin, Δt)
                     end
