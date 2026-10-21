@@ -1,0 +1,199 @@
+sequence_id,reference_id,error_metric,T2p_s,method,N_iso,n_sim,error_mean_pct,error_sd_pct,error_sem_pct,seed
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,2,100,259.77124146156495,31.61670777971262,3.161670777971262,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,3,100,215.59682639407478,25.903628206791684,2.5903628206791685,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,4,100,184.59301720710772,22.858612068555814,2.2858612068555813,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,5,100,165.384485978714,17.321789478045947,1.7321789478045946,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,6,100,149.20027723593125,21.271114977212807,2.127111497721281,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,7,100,140.40318991029847,20.23512864947502,2.023512864947502,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,8,100,131.1367357589357,17.0532719360709,1.70532719360709,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,9,100,125.14216264953048,14.691540114619787,1.4691540114619788,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,10,100,114.1246063853518,15.029221249058256,1.5029221249058256,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,11,100,112.58385949202935,14.206098567077065,1.4206098567077066,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,12,100,107.93335152167201,14.92988178061543,1.492988178061543,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,13,100,101.03770142424894,14.94684512292227,1.494684512292227,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,14,100,102.6204670606759,15.243822118054709,1.5243822118054708,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,15,100,95.67021355246635,13.091948525044582,1.3091948525044583,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,16,100,92.16582211000066,10.953231817398597,1.0953231817398597,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,17,100,90.68821234909211,11.618979253387963,1.1618979253387962,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,18,100,87.92213651351885,10.960280986463642,1.0960280986463642,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,19,100,83.89742470874243,12.200032665729792,1.2200032665729792,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,20,100,84.40709962850892,12.268739950250731,1.226873995025073,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,21,100,82.5789129721964,13.029019761952794,1.3029019761952794,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,22,100,80.25176970321768,10.143787141803822,1.0143787141803822,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,23,100,75.38114664724255,9.684787234158717,0.9684787234158717,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,24,100,76.21970104862146,10.031561791552464,1.0031561791552464,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,25,100,72.70671497543725,9.47199385403797,0.947199385403797,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,26,100,75.0100683088257,10.294279476131955,1.0294279476131956,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,27,100,71.7781698575703,9.480825679701265,0.9480825679701266,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,28,100,68.44920107830545,9.764962464691255,0.9764962464691255,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,29,100,68.3623518624326,9.74028803997086,0.974028803997086,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,30,100,66.57064162912496,8.447245369981317,0.8447245369981318,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,31,100,67.80183478955729,9.842624928496772,0.9842624928496772,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,32,100,65.10294339344235,9.661319889058651,0.9661319889058652,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,33,100,63.714203267387276,9.527981777894302,0.9527981777894302,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,34,100,64.7751231316403,9.281368562788288,0.9281368562788288,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,35,100,60.635206462741934,8.026026140857574,0.8026026140857574,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,36,100,63.76193303130064,7.553671758279641,0.7553671758279641,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,37,100,60.520838709950795,7.986856581604527,0.7986856581604527,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,38,100,59.32214038276041,8.570518517519607,0.8570518517519607,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,39,100,58.420704023009165,8.731229673659463,0.8731229673659463,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,40,100,60.352398519517955,8.984411096211195,0.8984411096211196,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,41,100,56.93374543802497,7.61652746187882,0.761652746187882,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,42,100,56.49460123362704,7.977986100476684,0.7977986100476684,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,43,100,55.074438492491275,7.607297756039327,0.7607297756039327,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,44,100,55.67416848339977,7.61681771731149,0.761681771731149,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,45,100,54.35918054234437,7.512725304587656,0.7512725304587656,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,46,100,54.82084116924203,7.312933419333055,0.7312933419333054,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,47,100,53.67553321300525,7.628396448460696,0.7628396448460696,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,48,100,54.47587862184088,7.716803946758186,0.7716803946758186,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,49,100,53.59919333002884,7.020091792523331,0.7020091792523331,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,50,100,51.806639955764105,7.599717745584194,0.7599717745584195,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,51,100,52.78661103933802,6.959104522270273,0.6959104522270273,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,52,100,52.4059396134899,6.751859676460998,0.6751859676460998,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,53,100,50.44940773014757,6.467993251697997,0.6467993251697998,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,54,100,49.840683600259126,6.303860866763615,0.6303860866763615,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,55,100,51.4315699997392,6.6848403767853375,0.6684840376785337,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,56,100,49.154302972107715,6.440430428671892,0.6440430428671892,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,57,100,49.09949481941381,6.286347541575798,0.6286347541575797,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,58,100,48.15469109811931,7.023114913804058,0.7023114913804058,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,59,100,48.971121209050416,6.943691366621265,0.6943691366621265,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,60,100,47.730309688054625,6.427064738185084,0.6427064738185084,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,61,100,47.062952527124246,6.926860359599289,0.6926860359599288,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,62,100,46.60094323005845,7.022839426392593,0.7022839426392593,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,63,100,46.14060533349432,5.087522377857464,0.5087522377857464,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,64,100,45.90705509630506,6.37972043865136,0.6379720438651361,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,65,100,46.1198556073342,7.647300850108787,0.7647300850108787,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,66,100,45.68464495318217,6.226896580422838,0.6226896580422838,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,67,100,45.833121021764136,6.525747426769706,0.6525747426769706,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,68,100,45.00128824242516,5.739740643314314,0.5739740643314314,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,69,100,44.10176575002229,5.838727799432557,0.5838727799432557,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,70,100,43.96298727319945,5.958529736102161,0.595852973610216,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,71,100,43.97659808168342,6.746994544205195,0.6746994544205195,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,72,100,43.42579444275302,5.940867181156755,0.5940867181156755,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,73,100,42.47165982904802,5.8904937479381,0.58904937479381,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,74,100,43.25082889919875,6.362453130250817,0.6362453130250817,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,75,100,43.64758516225952,6.229515967434316,0.6229515967434316,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,76,100,42.284528130117,5.569936303189619,0.556993630318962,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,77,100,42.41777597833976,5.601185999632142,0.5601185999632141,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,78,100,43.30804941276311,6.764374750365102,0.6764374750365102,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,79,100,41.69854797806148,5.931433345881981,0.5931433345881981,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,80,100,42.53802458503602,6.993667692298948,0.6993667692298948,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,81,100,41.54129846452306,6.411897323320896,0.6411897323320896,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,82,100,40.263754436165726,5.515287340134841,0.5515287340134841,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,83,100,41.29912736699967,6.272107880960371,0.6272107880960371,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,84,100,40.76562610153116,5.14679797836425,0.514679797836425,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,85,100,40.98104536746672,5.495324909668127,0.5495324909668127,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,86,100,39.57848514118379,5.291357330392867,0.5291357330392867,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,87,100,39.21613182665027,5.185899446317548,0.5185899446317548,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,88,100,39.46800910049654,5.477836464685084,0.5477836464685084,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,89,100,38.98575480064428,5.598685265616283,0.5598685265616283,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,90,100,39.00001334675224,4.5535693111834465,0.45535693111834463,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,91,100,38.5153256960255,5.833685762610634,0.5833685762610634,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,92,100,38.05539285892833,4.7169262940062735,0.47169262940062734,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,93,100,38.37440214962274,5.032921960832054,0.5032921960832054,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,94,100,37.746800315088834,5.311333097140651,0.5311333097140651,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,95,100,38.3296357749028,5.537006649102691,0.553700664910269,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,96,100,37.19680247341981,4.698366709544911,0.4698366709544911,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,97,100,37.20847803402966,5.038017820089608,0.5038017820089608,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,98,100,36.881683111800335,5.018815703420606,0.5018815703420606,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,99,100,37.33114431620645,5.551025612006018,0.5551025612006019,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,Monte Carlo,100,100,36.96049045869727,5.09723966225831,0.5097239662258309,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,2,1,244.15889327912782,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,3,1,205.67959312047225,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,4,1,161.20034055189763,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,5,1,134.34067694766622,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,6,1,131.44910040213978,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,7,1,111.02827767047836,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,8,1,118.76391256398965,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,9,1,86.9716328506217,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,10,1,94.95810574018829,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,11,1,83.91797333793298,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,12,1,77.26986038443985,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,13,1,75.8781859989435,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,14,1,68.31810427224117,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,15,1,70.91666341030938,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,16,1,68.4328640760416,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,17,1,66.94394296714967,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,18,1,59.78799106531785,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,19,1,60.813218705114174,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,20,1,56.032134695613514,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,21,1,49.301072050563334,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,22,1,50.70499638760697,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,23,1,43.33009044577649,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,24,1,44.483601210243734,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,25,1,41.447882150164496,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,26,1,40.576599470757536,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,27,1,37.00352635786844,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,28,1,36.32430314718609,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,29,1,33.84692653211272,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,30,1,32.973499251891134,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,31,1,34.72112644563835,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,32,1,32.50063078232028,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,33,1,30.323603770389248,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,34,1,31.66380549582933,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,35,1,30.23780095294466,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,36,1,30.921823154175556,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,37,1,26.284519996180887,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,38,1,27.305033130741595,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,39,1,25.272032977548214,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,40,1,26.75974633016173,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,41,1,25.044681485171644,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,42,1,22.7213034668945,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,43,1,23.51824146116404,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,44,1,21.009091479136455,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,45,1,22.148248084025457,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,46,1,22.02983092731778,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,47,1,20.981001112499893,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,48,1,20.993562190575908,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,49,1,21.20885242078801,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,50,1,20.936523688927938,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,51,1,18.765487005511584,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,52,1,20.17195008053708,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,53,1,18.414082245412917,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,54,1,20.419802839472517,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,55,1,19.225288982036886,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,56,1,17.874274646738268,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,57,1,17.460559569002523,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,58,1,17.451274586071648,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,59,1,17.99381159736662,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,60,1,18.363753579790053,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,61,1,16.930218395763923,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,62,1,16.819552758850403,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,63,1,15.009576711794246,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,64,1,15.506473721796128,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,65,1,16.192580944435093,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,66,1,14.993510696712681,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,67,1,14.757862936212438,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,68,1,14.236206717480421,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,69,1,14.224660815052248,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,70,1,14.322364863718176,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,71,1,14.446114470201904,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,72,1,13.840690325547085,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,73,1,13.731898970388434,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,74,1,12.800742462600864,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,75,1,13.685121043960724,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,76,1,14.397459297519147,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,77,1,13.099964172908157,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,78,1,12.598337621858434,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,79,1,12.713923477734419,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,80,1,12.647438823205702,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,81,1,13.147108234247488,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,82,1,13.219365988280394,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,83,1,12.849410952272928,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,84,1,11.886673562278455,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,85,1,11.578129985325944,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,86,1,11.759963483943826,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,87,1,12.564468216906722,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,88,1,12.124342694939088,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,89,1,11.641415008814796,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,90,1,11.06143654828256,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,91,1,10.55787141946864,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,92,1,10.878299896795395,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,93,1,10.821996369807605,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,94,1,11.513906904348861,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,95,1,10.60517233852269,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,96,1,10.06414793474786,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,97,1,10.39435269840721,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,98,1,10.112700992485312,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,99,1,10.596300388740593,,,1234
+secuencia_benchmark,PDG,complex_nrmse_percent,0.01,GL-CDF,100,1,10.083683001796086,,,1234

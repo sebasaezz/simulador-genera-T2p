@@ -34,40 +34,12 @@ M₀ = [
     1
 ]
 
-N_spins = 20
-N_sim = 100
-arr_MSRE_con = Float64[]
-arr_MSRE_hal = Float64[]
-arr_MSRE_hal_media = Float64[]
+N_spins = 100
 
-for _ in 1:N_sim
+t, S_MC = simular_convencional(T₂′, FID, M₀, N_spins)
+t, S_QMC = simular_convencional_halton(T₂′, FID, M₀, N_spins)
+t, S_GL = simular_GL_CDF(T₂′, FID, M₀, N_spins)
 
-    local t, S_pdg = simular_PDG_no_optimizado(T₂′, echo, M₀)
-    local t, S_con = simular_convencional(T₂′, echo, M₀, N_spins)
-    local t, S_hal = simular_convencional_halton(T₂′, echo, M₀, N_spins)
-
-    #calcular error
-    local MSRE_con = sqrt(mean((abs.(S_con) .- abs.(S_pdg)).^2))
-    local MSRE_hal = sqrt(mean((abs.(S_hal) .- abs.(S_pdg)).^2))
-
-
-    push!(arr_MSRE_con, MSRE_con)
-    push!(arr_MSRE_hal, MSRE_hal)
-
-end
-
-MSRE_con = mean(arr_MSRE_con) * 100
-MSRE_hal = mean(arr_MSRE_hal) * 100
-
-cambio = round((MSRE_hal-MSRE_con)/MSRE_con * 100, digits = 2)
-
-println("""
-
-Resultado de $N_sim simulaciones con $N_spins spins.
-
-Error con muestreo MC uniforme: $MSRE_con %
-Error con muestreo QMC Halton: $MSRE_hal %
-
-Cambio Halton: $cambio %
-
-""")
+plot(t, abs.(S_MC), label="MC", xlabel="Tiempo (s)", ylabel="Señal", title="Simulación Convencional")
+plot!(t, abs.(S_QMC), label="QMC")
+plot!(t, abs.(S_GL), label="GL")

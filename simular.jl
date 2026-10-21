@@ -8,8 +8,9 @@ include("src/events.jl")
 include("src/types.jl")
 include("src/dynamics.jl")
 include("src/simulations.jl")
-
-
+include("utils/generar_csv.jl")
+include("utils/resultador.jl")
+include("utils/graficar_senal.jl")
 
 τ = 20e-3      # 20 ms
 N = 200        # 200 muestras por τ
@@ -33,119 +34,52 @@ echo = [
 ]
 
 
-echo_largo = [
-    HardPulse(π/2, 0),
-
-    Delay(τ, N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(τ, N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(τ, N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(2τ, 2N),
-    HardPulse(π, π/2),
-
-    Delay(τ, N)
-]
-
-secuencia_1 = [
-    HardPulse(π/2, 0),
-
-    Delay(τ, N),
-
-    HardPulse(π/2, 0),
-
-    Delay(3τ, 3N),
-
-    HardPulse(π/2, 0),
-
-    Delay(2τ, 2N)
-]
 
 FID = [
     HardPulse(π/2, 0),
 
-    Delay(20T₂′, 4000),
+    Delay(0.1, 4000),
 ]
 
-secuencia_graficar = secuencia_1
+τ = 50e-3
+samples_per_τ = 200
 
-# t, S = simular_convencional(T₂′, echo, M₀, 100)
+secuencia_benchmark = [
+    HardPulse(π/2, 0.0),        # 90° excitación inicial
+    Delay(τ, samples_per_τ),
 
-# plot(t, abs.(S), title = "Simulacion Convencional y PDG", label = "100 spins", xlabel = "Tiempo [s]", ylabel = "Señal")
+    HardPulse(π, 0.0),          # 180° refocusing ideal
+    Delay(2τ, samples_per_τ),
 
-# t, S, taus = simular_LPM(T₂′, echo, M₀)
+    HardPulse(5π/6, 0.0),       # 150°
+    Delay(2τ, samples_per_τ),
 
-# plot!(t, abs.(S), label = "LPM")
-# plot(t, taus, title = "Valores de τ y |τ| en el tiempo", xlabel = "Tiempo [s]", ylabel = "τ, |τ| [s]", label = "τ")
-# plot!(t, abs.(taus), label = "|τ|")
+    HardPulse(2π/3, 0.0),       # 120°
+    Delay(2τ, samples_per_τ),
 
-# t, S = simular_convencional_halton(T₂′, echo, M₀, 100)
+    HardPulse(π/2, 0.0),        # 90°
+    Delay(2τ, samples_per_τ),
 
-# plot!(t, abs.(S), label = "Halton")
+    HardPulse(π/3, 0.0),        # 60°
+    Delay(2τ, samples_per_τ),
+]
 
-# t, S = simular_PDG_no_optimizado(T₂′, echo, M₀)
+#Generamos para el benchmark de errores para la secuencia FID
 
-# plot!(t, abs.(S), label = "PDG")
+t, S = simular_GL_CDF(
+    T₂′, FID, M₀, 100
+)
 
-# t, S = simular_wt(T₂′, secuencia_graficar, M₀, 100, 0.01)
+plot(t, abs.(S), label="FID", xlabel="Tiempo (s)", ylabel="Señal (a.u.)", title="Simulación de FID con GL_CDF")
 
-# plot!(t, abs.(S))
+metodo_a = N -> simular_convencional(T₂′, secuencia_benchmark, M₀, N)
+metodo_b = N -> simular_GL_CDF(T₂′, secuencia_benchmark, M₀, N)
+referencia = () -> simular_PDG_no_optimizado(T₂′, secuencia_benchmark, M₀)
+csv_errores = "errores_multiangle_MC_GL_CDF.csv"
 
+generar_csv_errores(csv_errores, metodo_a, metodo_b, referencia;
+    nombres=("Monte Carlo", "GL-CDF"),
+    repeticiones=(100, 1), 
+    Ns=2:100, sequence_id="secuencia_benchmark", reference_id="PDG", T2p_s=T₂′)
 
-#########Comparación con QMC########
-
-N_spins = 30
-
-t, S_pdg = simular_PDG_no_optimizado(T₂′, FID, M₀)
-t, S_con = simular_convencional(T₂′, FID, M₀, N_spins)
-t, S_hal = simular_convencional_halton(T₂′, FID, M₀, N_spins)
-
-#calcular error
-MSRE_con = sqrt(mean((abs.(S_con) - abs.(S_pdg)).^2)) * 100
-MSRE_hal = sqrt(mean((abs.(S_hal) - abs.(S_pdg)).^2)) * 100
-
-cambio = round((MSRE_hal-MSRE_con)/MSRE_con * 100, digits = 2)
-
-println("""
-
-Simulación con $N_spins spins.
-
-Error con muestreo MC uniforme: $MSRE_con %
-Error con muestreo QMC Halton: $MSRE_hal %
-
-Cambio Halton: $cambio %
-
-""")
-
-plot(t, abs.(S_pdg), title = "Simulación convencional y Halton", label = "PDG", xlabel = "Tiempo [s]", ylabel = "Señal")
-
-plot!(t, abs.(S_con), label = "Convencional")
-plot!(t, abs.(S_hal), label = "Halton")
+p_errores, resumen = graficar_errores_csv(csv_errores; objetivos=[20, 50, 100])
